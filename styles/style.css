@@ -323,10 +323,16 @@ h2 {
     }
 
     .back-to-top::before {
+        content: '';
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         border-bottom: 10px solid white;
         top: 10px;
+    }
+    
+    .back-to-top:hover {
+      background-color: #9370DB;
+      cursor: pointer;
     }
     
     .lightbox-content {
