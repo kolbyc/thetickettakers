@@ -215,6 +215,39 @@ h2 {
     margin-bottom: 20px;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #9370DB; /* Dark purple color */
+    color: #9370DB;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px; /* Less border-radius for a square look */
+    z-index: 1000;
+    display: none; /* Initially hidden */
+    transition: opacity 0.3s;
+}
+
+.back-to-top::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    margin: auto;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 18px solid white; /* Arrowhead color */
+    position: relative;
+    top: 11px;
+}
+
+.back-to-top:hover {
+    background-color: #7a5ba6; /* Slightly darker shade on hover */
+    cursor: pointer;
+}
+
 /* Lightbox styles */
 .lightbox {
     display: none;
@@ -282,6 +315,18 @@ h2 {
     .about-us-images img {
         width: 100%;
         margin: 10px 0;
+    }
+    
+    .back-to-top {
+        width: 32px;
+        height: 32px;
+    }
+
+    .back-to-top::before {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 10px solid white;
+        top: 10px;
     }
     
     .lightbox-content {
