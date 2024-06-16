@@ -331,7 +331,7 @@ h2 {
     }
     
     .back-to-top:hover {
-      background-color: #9370DB;
+      background-color: #7a5ba6;
       cursor: pointer;
     }
     
@@ -350,6 +350,6 @@ h2 {
 
 @media (hover: hover) and (pointer: fine) {
   a:hover { 
-    color: #9370DB; 
+    color: red; 
   }
 }
