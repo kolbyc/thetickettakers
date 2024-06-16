@@ -341,3 +341,9 @@ h2 {
         font-size: 30px;
     }
 }
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover { 
+    color: #9370DB; 
+  }
+}
