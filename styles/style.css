@@ -219,14 +219,14 @@ h2 {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #9370DB; /* Dark purple color */
+    background-color: #9370DB;
     color: #9370DB;
     text-align: center;
     width: 40px;
     height: 40px;
-    border-radius: 5px; /* Less border-radius for a square look */
+    border-radius: 5px; 
     z-index: 1000;
-    display: none; /* Initially hidden */
+    display: none; 
     transition: opacity 0.3s;
 }
 
@@ -238,13 +238,13 @@ h2 {
     margin: auto;
     border-left: 11px solid transparent;
     border-right: 11px solid transparent;
-    border-bottom: 18px solid white; /* Arrowhead color */
+    border-bottom: 18px solid white;
     position: relative;
     top: 11px;
 }
 
 .back-to-top:hover {
-    background-color: #7a5ba6; /* Slightly darker shade on hover */
+    background-color: #7a5ba6;
     cursor: pointer;
 }
 
