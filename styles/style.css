@@ -165,29 +165,29 @@ footer {
     color: #63b8ff;
 }
 
-#tour ul {
+#shows ul {
     list-style: disc inside none;
     padding-left: 0;
     display: inline-block;
     text-align: left; 
 }
 
-#tour ul li {
+#shows ul li {
     margin-left: 20px;
 }
 
-#tour p {
+#shows p {
     font-size: 24px;
     font-family: 'Arial Black', sans-serif;
     margin-bottom: 10px;
 }
 
-#tour a {
+#shows a {
     color: #1e90ff;
     text-decoration: underline;
 }
 
-#tour a:hover {
+#shows a:hover {
     color: #63b8ff;
 }
 
