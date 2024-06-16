@@ -3,17 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const lightboxImg = document.getElementById('lightbox-img');
     const lightboxVideo = document.getElementById('lightbox-video');
     const closeBtn = document.getElementsByClassName('close')[0];
-
-    document.querySelectorAll('.large-image img').forEach(image => {
-        image.addEventListener('click', () => {
-            lightbox.style.display = 'flex';
-            lightboxImg.style.display = 'block';
-            lightboxVideo.style.display = 'none';
-            lightboxImg.src = image.src;
-        });
-    });
     
-    document.querySelectorAll('.small-images img').forEach(image => {
+    document.querySelectorAll('.about-images img').forEach(image => {
         image.addEventListener('click', () => {
             lightbox.style.display = 'flex';
             lightboxImg.style.display = 'block';

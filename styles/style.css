@@ -93,11 +93,12 @@ nav a:hover {
 }
 
 .about-us-images img {
-    width: 50%; /* Adjust as needed for smaller screens */
+    width: 50%;
     max-width: 100%;
     height: auto;
     display: inline-block;
-    margin: 0 10px; /* Add spacing between small images */
+    margin: 0 10px;
+    cursor: pointer;
 }
 .video-row {
     display: flex;
