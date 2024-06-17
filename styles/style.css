@@ -243,11 +243,6 @@ h2 {
     top: 11px;
 }
 
-.back-to-top:hover {
-    background-color: #7a5ba6;
-    cursor: pointer;
-}
-
 /* Lightbox styles */
 .lightbox {
     display: none;
@@ -343,8 +338,3 @@ h2 {
     }
 }
 
-@media (hover: none) {
-  .back-to-top:hover { 
-    color: red; 
-  }
-}
