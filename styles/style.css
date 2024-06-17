@@ -330,11 +330,6 @@ h2 {
         top: 10px;
     }
     
-    .back-to-top:hover {
-      background-color: #7a5ba6;
-      cursor: pointer;
-    }
-    
     .lightbox-content {
         max-width: 100%;
         max-height: 100%;
@@ -348,8 +343,8 @@ h2 {
     }
 }
 
-@media (hover: hover) and (pointer: fine) {
-  a:hover { 
+@media (hover: none) {
+  back-to-top:hover { 
     color: red; 
   }
 }
