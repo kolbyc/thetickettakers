@@ -344,7 +344,7 @@ h2 {
 }
 
 @media (hover: none) {
-  back-to-top:hover { 
+  .back-to-top:hover { 
     color: red; 
   }
 }
