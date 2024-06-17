@@ -191,6 +191,15 @@ footer {
     color: #63b8ff;
 }
 
+#contact a {
+    color: #1e90ff;
+    text-decoration: underline;
+}
+
+#contact a:hover {
+    color: #63b8ff;
+}
+
 .social-icons {
     margin-top: 10px;
 }
