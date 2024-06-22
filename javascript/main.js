@@ -1,3 +1,12 @@
+function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}
+
 // Show or hide the "Back to Top" button based on scroll position
 window.onscroll = function() {
     var backToTopButton = document.getElementById("backToTopButton");
