@@ -4,6 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const lightboxVideo = document.getElementById('lightbox-video');
     const closeBtn = document.getElementsByClassName('close')[0];
     
+    document.querySelectorAll('.ticket-images img').forEach(image => {
+        image.addEventListener('click', () => {
+            lightbox.style.display = 'flex';
+            lightboxImg.style.display = 'block';
+            lightboxVideo.style.display = 'none';
+            lightboxImg.src = image.src;
+        });
+    });
+    
     document.querySelectorAll('.about-images img').forEach(image => {
         image.addEventListener('click', () => {
             lightbox.style.display = 'flex';

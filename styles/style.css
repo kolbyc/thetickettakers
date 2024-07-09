@@ -121,6 +121,22 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.ticket-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.ticket-images img {
+    max-width: calc(33.333% - 10px);
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 
 .ticket-info p {
     font-size: 20px;
@@ -374,6 +390,12 @@ h2 {
     }
 
     .about-us-images img {
+        width: 80%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+    
+    .ticket-images img {
         width: 80%;
         max-width: 100%;
         margin: 10px 0;
