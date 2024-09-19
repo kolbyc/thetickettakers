@@ -273,6 +273,10 @@ footer {
     color: #63b8ff;
 }
 
+#contact p {
+    text-align:center;
+}
+
 #contact a {
     color: #1e90ff;
     text-decoration: underline;
