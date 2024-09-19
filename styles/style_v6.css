@@ -167,7 +167,7 @@ nav a:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 325px;
 }
 
 .ticket-option h3 {
@@ -191,7 +191,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 250px; /* Same height as other cards for consistency */
+    height: 325px; 
 }
 
 .buy-ticket-button {
