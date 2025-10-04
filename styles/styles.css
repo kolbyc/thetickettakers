@@ -100,10 +100,10 @@ nav a:hover {
 }
 
 .about-us-images img {
-    width: 50%;
+    width: 60%;
     max-width: 100%;
-    height: auto;
-    display: inline-block;
+    height: 500px;
+    object-fit: cover;
     margin: 0 10px;
     cursor: pointer;
 }
@@ -428,6 +428,8 @@ h2 {
         width: 80%;
         max-width: 100%;
         margin: 10px 0;
+        height: 275px;
+        object-fit: cover;
     }
     
     .ticket-images {       
