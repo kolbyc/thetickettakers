@@ -1,0 +1,13 @@
+# Cloudflare Pages response headers. Pages serves everything with
+# "max-age=0, must-revalidate" unless told otherwise, so returning visitors
+# re-check every file. These files are safe to cache for a year because their
+# URLs change whenever their content does (the build step adds a content hash).
+
+/static/optimized/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/styles/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/javascript/*
+  Cache-Control: public, max-age=31536000, immutable
